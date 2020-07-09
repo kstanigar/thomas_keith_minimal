@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+  }
+
+  .padding {
+    padding-bottom: 2rem;
+  }
+
+  /* Nav Area */
+  .nav-gradient {
+    background: white;
+    background: -moz-linear-gradient(left, white 50%, black 50%);
+    background: -webkit-linear-gradient(left, white 50%, black 50%);
+    background: linear-gradient(to right, white 50%, black 50%);
+    }
+
+    .logo {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 2rem;
+    padding: 0;
+    color: black; 
+ }
+ .navbar {
+   padding: 0.6rem;
+ }
+ 
+ .navbar-nav li{
+   padding-right: 1rem;
+ }
+ 
+ .nav-link {
+   font-size: 1rem !important;
+   color: white;
+   letter-spacing: .25rem;
+ }
+ .nav-link:hover {
+    color: #a5a3a7;
+}
+
+.fa-bars {
+    color:white; 
+    font-size:28px;
+}
+
+.btn-primary {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    letter-spacing: .25rem;
+  }
+
+.btn-primary:hover {
+    background-color: #4c2596;
+    border: 1px solid #000000;
+    color: #ffffff;
+}   
+
+
+/* Both Sides */
+.frame img {
+    border-radius: 2px;
+    transition: all 1s ease;
+}
+
+.project-links h4 {
+    opacity: 0;
+    letter-spacing: 0.3rem;
+    transition: all 1s ease;
+}
+.project-links > a:hover h4 {
+    opacity: 1;
+}
+
+.symbol {
+    opacity: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: all 1s ease;
+}
+
+.see-code:hover .symbol {
+    opacity: 1;
+}
+
+.right .see-code a:hover,
+.left .see-code a:hover {
+    color: #8a8a8a;
+    filter: brightness(1.1);
+  }
+
+  .projects-title-left,
+  .projects-title-right {
+    letter-spacing: 1rem;
+  }
+
+
+
+/* Left Side */
+.main-left {
+    min-height: 100%;
+    background: white;
+    color: black;
+}
+
+.left {
+    min-height: 100vh;
+    margin-bottom: 6rem; 
+}
+
+.left-margin-top {
+    margin-top: 5rem;
+}
+
+.projects-title-left {
+    margin-right: -2.5rem;
+}
+
+.left h4,
+.left a {
+    color: black;
+    text-decoration: none;
+}
+
+.left .frame img {
+    filter: brightness(0.6);
+}
+
+.left > a:hover img {
+    filter: brightness(1.1);
+    transform: scale(1.17); 
+}
+
+
+/* Right Side */
+.main-right {
+    min-height: 100%;
+    background: black;
+}
+
+.projects-title-right {
+    color: white;
+    margin-left: -1.5rem;
+}
+
+.right-margin-top {
+    margin-top: 75vh;
+}
+
+
+.right {
+    min-height: 100vh;
+    margin-bottom: 6rem;  
+    color: white;
+}
+  
+.right > a,
+.right .symbol,
+.right .see-code > a {
+    color: white;
+    text-decoration: none;
+}
+
+.right > a:hover img {
+    filter: brightness(0.5);
+    transform: scale(1.17); 
+}
