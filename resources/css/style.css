@@ -8,6 +8,7 @@ html, body {
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   color: #222;
+  scroll-behavior: smooth;
 }
 /* -- Padding Class -- */
 .padding {
@@ -23,6 +24,12 @@ html, body {
 }
 .navbar {
   padding: 0.6rem;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.nav-bar .ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px !important;
 }
 
 .navbar-nav li{
@@ -72,15 +79,33 @@ background: linear-gradient(to right, black 50%, white 50%);
     color: white;
 }
 
-.main-left .arrow {
+.main-left .arrow-down a{
   opacity: 0;
   color: #ffffff;
   font-size: 4rem;
   position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -75%);
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  cursor: none;
 }
+
+.main-left .arrow-down a:hover a{
+  text-shadow: 2px 2px #ffffff;
+}
+
+.main-right .arrow-up a{
+  opacity: 0;
+  color: black;
+  font-size: 4rem;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+  margin-bottom: 1rem;
+  cursor: none;
+}
+
 
 .carousel-inner .carousel-item .heading-1 {
   font-size: 4rem;
@@ -115,15 +140,40 @@ background: linear-gradient(to right, black 50%, white 50%);
   color: #ffffff;
 }
 
-.btn-home {
+.nav-btn {
     position: absolute;
     top: 75%;
     left: 50%;
     transform: translate(-50%, -75%);
+    padding: 1rem 3rem;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
-.btn-home:hover {
+.nav-btn:hover {
   background-color: #4c2596;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0px 2px 2px rgb(155, 155, 155);
+}
+
+.main-right a {
+  text-decoration: none;
+}
+
+@media (max-width: 1076px) {
+  .carousel-inner .carousel-item .name {
+    font-size: 5rem;
+    margin-top: 6rem;
+  }
+  .carousel-inner .carousel-item .human {
+    font-size: 4rem;
+    margin-top: 8rem;
+  }
+  .carousel-inner .carousel-item .character {
+    font-size: 4rem;
+    margin-top: 4rem;
+  }
 }
 
 @media (max-width: 992px) {
@@ -134,12 +184,18 @@ background: linear-gradient(to right, black 50%, white 50%);
     color: black;
   }
   .carousel-inner .carousel-item .heading-1{
-    margin-top: 18rem;
+    margin-top: 17rem;
     font-size: 4.5rem;
   }
 
-  .main-left .arrow {
+  .main-left .arrow-down a{
     opacity: 1;
+    cursor: pointer;
+  }
+
+  .main-right .arrow-up a{
+    opacity: 1;
+    cursor: pointer;
   }
 
   .carousel-inner .carousel-item .name {
@@ -148,7 +204,7 @@ background: linear-gradient(to right, black 50%, white 50%);
   }
   .carousel-inner .carousel-item .human {
     font-size: 4rem;
-    margin-top: 16rem;
+    margin-top: 15rem;
   }
   .carousel-inner .carousel-item .character {
     font-size: 4rem;
@@ -168,7 +224,7 @@ background: linear-gradient(to right, black 50%, white 50%);
   }
   .carousel-inner .carousel-item .human {
     font-size: 4rem;
-    margin-top: 14rem;
+    margin-top: 12.9rem;
   }
   .carousel-inner .carousel-item .character {
     font-size: 4rem;
@@ -179,18 +235,29 @@ background: linear-gradient(to right, black 50%, white 50%);
 
 @media (max-width: 576px) {
   .carousel-inner .carousel-item .heading-1 {
-    margin-top: 15rem;
+    margin-top: 14rem;
   }
 
   .carousel-inner .carousel-item .name {
     font-size: 4rem;
   }
   .carousel-inner .carousel-item .human {
+    margin-top: 14rem;
     font-size: 3.05rem;
   }
   .carousel-inner .carousel-item .character {
     font-size: 3rem;
-    margin-top: 11rem;
+    margin-top: 14rem;
+  }
+}
+
+@media (max-width: 325px) {
+  .carousel-inner .carousel-item .human {
+    margin-top: 12.9rem;
+  }
+  .carousel-inner .carousel-item .character {
+    font-size: 3rem;
+    margin-top: 10rem;
   }
 }
 
