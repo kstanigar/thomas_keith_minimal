@@ -113,6 +113,8 @@ html, body {
 .left {
     min-height: 75vh;
     margin-bottom: 4rem; 
+    margin: 0 auto;
+    padding: 1rem;
 }
 .left-margin-top {
     margin-top: 3rem;
@@ -130,7 +132,7 @@ html, body {
 }
 
 .projects-title-left {
-    margin-right: -2.5rem;
+    margin-right: -1.5rem;
 }
 
 .left h4,
@@ -145,7 +147,7 @@ html, body {
 
 .left > a:hover img {
     filter: brightness(1.1);
-    transform: scale(1.17); 
+    transform: scale(1.1); 
 }
 
 
@@ -157,7 +159,7 @@ html, body {
 
 .projects-title-right {
     color: white;
-    margin-left: -1.5rem;
+    margin-left: -0.5rem;
 }
 
 .right-margin-top {
@@ -168,6 +170,8 @@ html, body {
     min-height: 75vh;
     margin-bottom: 4rem;  
     color: white;
+    margin: 0 auto;
+    padding: 1rem;
 }
   
 .right > a,
@@ -179,7 +183,7 @@ html, body {
 
 .right > a:hover img {
     filter: brightness(0.5);
-    transform: scale(1.17); 
+    transform: scale(1.1); 
 }
 
 /* Media Queries */
@@ -231,6 +235,15 @@ html, body {
     .right .see-code > a {
         font-size: 1.5rem;
         opacity: 1;
+    }
+    .left,
+    .right {
+        margin: 1rem 0 0 0;
+        border-bottom: 2px solid #a5a3a7;
+    }
+    .left:last-child,
+    .right:last-child {
+        border-bottom: none;
     }
 }
 
