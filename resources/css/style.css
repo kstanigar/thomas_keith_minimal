@@ -237,7 +237,7 @@ background: linear-gradient(to left, rgba(255, 255, 255, 0.075) 50%, rgba(0, 0, 
 
 @media (max-width: 768px) {
   .carousel-inner .carousel-item .heading-1{
-    margin-top: 15rem;
+    margin-top: 14rem;
     font-size: 4.5rem;
   }
   
@@ -262,7 +262,7 @@ background: linear-gradient(to left, rgba(255, 255, 255, 0.075) 50%, rgba(0, 0, 
   }
 
   .carousel-inner .carousel-item .name {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .carousel-inner .carousel-item .human {
     margin-top: 14rem;
@@ -283,7 +283,7 @@ background: linear-gradient(to left, rgba(255, 255, 255, 0.075) 50%, rgba(0, 0, 
     margin-top: 10rem;
   }
 }
-
+/* !Do I need this? */
 @media (max-width: 2800px) {
   .carousel .carousel-item {
     font-size: 60rem;
