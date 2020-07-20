@@ -276,7 +276,7 @@ background: linear-gradient(to left, rgba(255, 255, 255, 0.075) 50%, rgba(0, 0, 
 
 @media (max-width: 325px) {
   .carousel-inner .carousel-item .human {
-    margin-top: 12.9rem;
+    margin-top: 12rem;
   }
   .carousel-inner .carousel-item .character {
     font-size: 3rem;
