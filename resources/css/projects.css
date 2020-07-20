@@ -6,46 +6,49 @@ html, body {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     color: #222;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.685), #000000d2), url("../images/sphere.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
-  .padding {
+.padding {
     padding-bottom: 2rem;
   }
 
   /* Nav Area */
-  .nav-gradient {
-    background: white;
+.nav-gradient {
+    /* background: white;
     background: -moz-linear-gradient(left, white 50%, black 50%);
-    background: -webkit-linear-gradient(left, white 50%, black 50%);
-    background: linear-gradient(to right, white 50%, black 50%);
+    background: -webkit-linear-gradient(left, white 50%, black 50%); */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.89) 50%, rgba(0, 0, 0, 0.8)50%);
     }
 
-    .logo {
+.logo {
     font-family: 'Herr Von Muellerhoff', cursive;
     font-size: 2rem;
     padding: 0;
     color: black; 
  }
- .navbar {
+.navbar {
    padding: 0.6rem;
  }
  
- .navbar-nav li{
+.navbar-nav li{
    padding-right: 1rem;
  }
  
- .nav-link {
+.nav-link {
    font-size: 1rem !important;
    color: white;
    letter-spacing: .25rem;
  }
- .nav-link:hover {
+.nav-link:hover {
     color: #a5a3a7;
 }
 .navbar-nav li.active a {
     color: #7d47e2;
     font-weight: bold;
-  }
+}
 
 .fa-bars {
     color:white; 
@@ -63,7 +66,12 @@ html, body {
     background-color: #4c2596;
     border: 1px solid #000000;
     color: #ffffff;
-}   
+}  
+.btn-primary:focus {
+    background-color: transparent!important;
+    box-shadow: none !important;
+    border: 1px solid #fff !important;
+} 
 
 
 /* Both Sides */
@@ -107,7 +115,7 @@ html, body {
 /* Left Side */
 .main-left {
     min-height: 100%;
-    background: white;
+    background: rgba(255, 255, 255, 0.89);
     color: black;
 }
 .left {
@@ -154,7 +162,7 @@ html, body {
 /* Right Side */
 .main-right {
     min-height: 100%;
-    background: black;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .projects-title-right {
