@@ -66,9 +66,9 @@ html, body {
 /* End of Nav */
 /* Form */
 .form-container {
-    width: 40%;
+    width: 38%;
     min-height: 80%;
-    padding: 2rem;
+    padding: 1rem;
     color: rgb(0, 0, 0);
     border-radius: 0.5rem;
     background-color: #f5f5f5d0;
@@ -77,6 +77,9 @@ html, body {
 .thank-you {
     font-weight: 400;
     letter-spacing: 0.1rem;
+}
+.thank-you-paragraph {
+    font-size: 1rem;
 }
 .thank-you-paragraph span {
     color: #4c2596;
@@ -87,3 +90,9 @@ html, body {
     color: #fff;
 }
 /* End of Form */
+/* Media queries */
+@media (max-width: 768px) {
+    .form-container {
+        width: 80%;
+    }
+}

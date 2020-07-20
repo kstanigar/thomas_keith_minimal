@@ -9,7 +9,7 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   color: #222;
   scroll-behavior: smooth;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.685), #000000d2), url("../images/sphere.jpg") no-repeat center;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.685)50%, #000000d2)50%, url("../images/sphere.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -145,9 +145,9 @@ background: linear-gradient(to left, rgba(255, 255, 255, 0.075) 50%, rgba(0, 0, 
   font-size: 4rem;
   font-weight: 800;
   position: absolute;
-  top: 15%;
+  top: 12%;
   left: 50%;
-  transform: translate(-50%, -15%);
+  transform: translate(-50%, -12%);
   margin-bottom: 1rem;
   cursor: none;
 }
@@ -192,7 +192,7 @@ background: linear-gradient(to left, rgba(255, 255, 255, 0.075) 50%, rgba(0, 0, 
   }
   .carousel-inner .carousel-item .character {
     font-size: 4rem;
-    margin-top: 4rem;
+    margin-top: 6rem;
   }
 }
 
@@ -237,7 +237,7 @@ background: linear-gradient(to left, rgba(255, 255, 255, 0.075) 50%, rgba(0, 0, 
 
 @media (max-width: 768px) {
   .carousel-inner .carousel-item .heading-1{
-    margin-top: 18rem;
+    margin-top: 15rem;
     font-size: 4.5rem;
   }
   
@@ -281,6 +281,12 @@ background: linear-gradient(to left, rgba(255, 255, 255, 0.075) 50%, rgba(0, 0, 
   .carousel-inner .carousel-item .character {
     font-size: 3rem;
     margin-top: 10rem;
+  }
+}
+
+@media (max-width: 2800px) {
+  .carousel .carousel-item {
+    font-size: 60rem;
   }
 }
 
