@@ -207,6 +207,12 @@ background: linear-gradient(to left, rgba(255, 255, 255, 0.075) 50%, rgba(0, 0, 
 }
 
 @media (max-width: 992px) {
+  .nav-gradient {
+    background: rgba(0, 0, 0, 0.774); 
+  }
+  .fa-bars {
+    color: #fff;
+  }
   .navbar-nav li a {
     color: #fff;
   }
@@ -256,12 +262,6 @@ background: linear-gradient(to left, rgba(255, 255, 255, 0.075) 50%, rgba(0, 0, 
 }
 
 @media (max-width: 768px) {
-  .nav-gradient {
-    background: rgba(0, 0, 0, 0.774); 
-  }
-  .fa-bars {
-    color: #fff;
-  }
   .carousel-inner .carousel-item .heading-1{
     margin-top: 14rem;
     font-size: 4.5rem;
