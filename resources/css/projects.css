@@ -17,9 +17,6 @@ html, body {
 
   /* Nav Area */
 .nav-gradient {
-    /* background: white;
-    background: -moz-linear-gradient(left, white 50%, black 50%);
-    background: -webkit-linear-gradient(left, white 50%, black 50%); */
     background: linear-gradient(to right, rgba(255, 255, 255, 0.89) 50%, rgba(0, 0, 0, 0.8)50%);
     }
 
@@ -116,7 +113,7 @@ html, body {
 .main-left {
     min-height: 100%;
     background: rgba(255, 255, 255, 0.89);
-    color: black;
+    color: #000;
 }
 .left {
     min-height: 75vh;
@@ -131,12 +128,12 @@ html, body {
 /* Small Title */
 .small-title {
     display: none;
-    color: black;
+    color: #000;
     letter-spacing: 1rem;
     font-size: 2rem;
     margin: 4rem auto;
     padding-bottom: 1rem;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #000;
 }
 
 .projects-title-left {
@@ -166,7 +163,7 @@ html, body {
 }
 
 .projects-title-right {
-    color: white;
+    color: #fff;
     margin-left: -0.5rem;
 }
 
@@ -222,6 +219,12 @@ html, body {
 }
 
 @media (max-width: 767px) {
+    .nav-gradient {
+        background: rgba(255, 255, 255, 0.89);
+    }
+    .fa-bars {
+        color: #000; 
+    }
     .projects-title-left,
     .projects-title-right {
         display: none;

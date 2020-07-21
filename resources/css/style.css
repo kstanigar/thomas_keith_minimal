@@ -24,6 +24,7 @@ html, body {
    font-size: 2rem;
    padding: 0;
    color: white; 
+   /* font-weight: bold; */
 }
 .navbar {
   padding: 0.6rem;
@@ -242,11 +243,16 @@ background: linear-gradient(to left, rgba(255, 255, 255, 0.075) 50%, rgba(0, 0, 
 }
 
 @media (max-width: 768px) {
+  .nav-gradient {
+    background: rgba(0, 0, 0, 0.774); 
+  }
+  .fa-bars {
+    color: #fff;
+  }
   .carousel-inner .carousel-item .heading-1{
     margin-top: 14rem;
     font-size: 4.5rem;
   }
-  
   .carousel-inner .carousel-item .name {
     font-size: 5rem;
     margin-top: 14rem;
@@ -268,6 +274,7 @@ background: linear-gradient(to left, rgba(255, 255, 255, 0.075) 50%, rgba(0, 0, 
   }
 
   .carousel-inner .carousel-item .name {
+    margin-top: 11rem;
     font-size: 3.5rem;
   }
   .carousel-inner .carousel-item .human {
@@ -279,15 +286,41 @@ background: linear-gradient(to left, rgba(255, 255, 255, 0.075) 50%, rgba(0, 0, 
     margin-top: 14rem;
   }
 }
-
-@media (max-width: 325px) {
+@media (max-width: 425px) {
+  .carousel-inner .carousel-item .why {
+    margin-top: 9rem;
+  }
   .carousel-inner .carousel-item .human {
     margin-top: 12rem;
   }
   .carousel-inner .carousel-item .character {
-    font-size: 3rem;
+    margin-top: 11.5rem;
+  }
+}
+@media (max-width: 325px) {
+  .carousel-inner .carousel-item .heading-1{
+    margin-top: 8rem;
+    font-size: 4rem;
+  }
+  .carousel-inner .carousel-item .who {
     margin-top: 10rem;
   }
+  .carousel-inner .carousel-item .what {
+    margin-top: 9rem;
+  }
+  .carousel-inner .carousel-item .name {
+    font-size: 3rem;
+    margin-top: 9.5rem;
+  }
+  .carousel-inner .carousel-item .human {
+    font-size: 2.5rem;
+    margin-top: 10rem;
+  }
+  .carousel-inner .carousel-item .character {
+    font-size: 2.5rem;
+    margin-top: 8.5rem;
+  }
+  
 }
 /* !Do I need this? */
 @media (max-width: 2800px) {
