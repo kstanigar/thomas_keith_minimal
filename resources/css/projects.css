@@ -216,6 +216,9 @@ html, body {
     .right {
         min-height: 75vh; 
     }  
+    .nav-item {
+        font-size: 2rem;
+      }
 }
 
 @media (max-width: 767px) {

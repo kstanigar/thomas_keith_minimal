@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
 
 html, body {
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     color: #222;
@@ -91,6 +91,11 @@ html, body {
 }
 /* End of Form */
 /* Media queries */
+@media (max-width: 992) {
+    .nav-item {
+        font-size: 2rem;
+      }
+}
 @media (max-width: 768px) {
     .form-container {
         width: 80%;
