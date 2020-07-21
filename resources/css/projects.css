@@ -9,36 +9,39 @@ html, body {
     background: linear-gradient(to right, rgba(255, 255, 255, 0.685), #000000d2), url("../images/sphere.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-  }
+}
 
 .padding {
     padding-bottom: 2rem;
-  }
+}
 
   /* Nav Area */
 .nav-gradient {
     background: linear-gradient(to right, rgba(255, 255, 255, 0.89) 50%, rgba(0, 0, 0, 0.8)50%);
-    }
+}
 
 .logo {
     font-family: 'Herr Von Muellerhoff', cursive;
     font-size: 2rem;
     padding: 0;
     color: black; 
- }
+}
+ .logo:hover {
+    color: #6b6b6b;
+    transition: all 0.4s ease;
+}
 .navbar {
    padding: 0.6rem;
- }
- 
-.navbar-nav li{
-   padding-right: 1rem;
- }
- 
+} 
+.navbar-nav li a{
+   margin-right: 2rem;
+}
 .nav-link {
    font-size: 1rem !important;
    color: white;
    letter-spacing: .25rem;
- }
+   transition: all 0.4s ease;
+}
 .nav-link:hover {
     color: #a5a3a7;
 }
@@ -46,19 +49,17 @@ html, body {
     color: #7d47e2;
     font-weight: bold;
 }
-
 .fa-bars {
     color:white; 
     font-size:28px;
 }
-
 .btn-primary {
     background-color: #000000;
     border: 1px solid #ffffff;
     color: #ffffff;
     letter-spacing: .25rem;
-  }
-
+    transition: all 0.4s ease;
+}
 .btn-primary:hover {
     background-color: #4c2596;
     border: 1px solid #000000;
@@ -69,7 +70,6 @@ html, body {
     box-shadow: none !important;
     border: 1px solid #fff !important;
 } 
-
 
 /* Both Sides */
 .frame img {
@@ -85,29 +85,26 @@ html, body {
 .project-links > a:hover h4 {
     opacity: 1;
 }
-
 .symbol {
     opacity: 0;
     font-size: 1.2rem;
     font-weight: 400;
     transition: all 1s ease;
 }
-
 .see-code:hover .symbol {
     opacity: 1;
 }
-
 .right .see-code a:hover,
 .left .see-code a:hover {
     color: #8a8a8a;
     filter: brightness(1.1);
-  }
+}
 
-  .projects-title-left,
-  .projects-title-right {
+.projects-title-left,
+.projects-title-right {
     letter-spacing: 1rem;
     margin-top: 3rem;
-  }
+}
 
 /* Left Side */
 .main-left {
@@ -154,73 +151,76 @@ html, body {
     filter: brightness(1.1);
     transform: scale(1.1); 
 }
-
-
 /* Right Side */
 .main-right {
     min-height: 100%;
     background: rgba(0, 0, 0, 0.8);
 }
-
 .projects-title-right {
     color: #fff;
     margin-left: -0.5rem;
 }
-
 .right-margin-top {
     margin-top: 45vh;
 }
-
 .right {
     min-height: 75vh;
     margin-bottom: 4rem;  
     color: white;
     margin: 0 auto;
     padding: 1rem;
-}
-  
+} 
 .right > a,
 .right .symbol,
 .right .see-code > a {
     color: white;
     text-decoration: none;
 }
-
 .right > a:hover img {
     filter: brightness(0.5);
     transform: scale(1.1); 
 }
-
 /* Media Queries */
 @media (max-width: 992px) {
     .padding {
         padding-bottom: 0;
     }
-
-    .nav-link {
-        color: black;
+    .nav-list {
+        align-items: flex-end;
     }
-
+    .nav-item {
+        font-size: 2rem;
+    }
+    .nav-link {
+        color: #fff;
+        margin-bottom: 1rem;
+    }
     .left-margin-top {
         margin-top: 2rem;
     }
-
     .right-margin-top {
         margin-top: 40vh;
     }
-
     .left,
     .right {
         min-height: 75vh; 
     }  
-    .nav-item {
-        font-size: 2rem;
-      }
 }
-
 @media (max-width: 767px) {
     .nav-gradient {
         background: rgba(255, 255, 255, 0.89);
+    }
+    .nav-list {
+        align-items: center;
+    }
+    .nav-link {
+        color: #000;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
+    .btn-primary {
+        margin-left: 2rem;
+        border: 2px solid #000;
     }
     .fa-bars {
         color: #000; 
@@ -232,7 +232,6 @@ html, body {
     .small-title {
         display: block;
     }
-    
     .right-margin-top {
         margin-top: 10vh;
     }
@@ -241,7 +240,6 @@ html, body {
         font-size: 2rem;
     }
 }
-
 @media (max-width: 576px) {
     .left .symbol,
     .left .see-code > a,
