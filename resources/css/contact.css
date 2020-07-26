@@ -56,7 +56,11 @@ html, body {
 .connect-btn:hover {
     border: 1px solid #a5a3a7;
     background-color: transparent;
-    color: #ffffff;
+    color: #fff;
+}
+.connect-btn:hover {
+    border: 1px solid #000;
+    color: #000;
 }
 .btn-contact:focus,
 .connect-btn:focus {
@@ -114,7 +118,7 @@ html, body {
         margin-left: 2rem;
         margin-bottom: 1rem;
     }
-    .btn {
+    .btn-contact {
         margin-left: 2rem;
     }
 }
