@@ -53,19 +53,19 @@ html, body {
     color:white; 
     font-size:28px;
 }
-.btn-primary {
-    background-color: #000000;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    letter-spacing: .25rem;
+.btn-contact {
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    letter-spacing: 0.25rem;
     transition: all 0.4s ease;
 }
-.btn-primary:hover {
+.btn-contact:hover {
     background-color: #4c2596;
-    border: 1px solid #000000;
-    color: #ffffff;
+    border: 1px solid #000;
+    color: #fff;
 }  
-.btn-primary:focus {
+.btn-contact:focus {
     background-color: transparent!important;
     box-shadow: none !important;
     border: 1px solid #fff !important;
@@ -218,10 +218,10 @@ html, body {
         margin-left: 2rem;
         margin-bottom: 1rem;
     }
-    .btn-primary {
+    .btn {
         margin-left: 2rem;
-        border: 2px solid #000;
-    }
+      }
+    
     .fa-bars {
         color: #000; 
     }

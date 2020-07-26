@@ -37,36 +37,36 @@ html, body {
 }
 .navbar-nav li a,
 .nav-btn {
-  font-size: 1rem !important;
+  font-size: 1rem;
   color: #000;
-  letter-spacing: .25rem;
+  letter-spacing: 0.25rem;
   text-decoration: none;
   transition: all 0.4s ease;
 }
 .navbar-nav li a:hover {
-  color: #6b6b6b;
+  color: #fff;
 }
 .navbar-nav li.active a {
   color: #7d47e2;
   font-weight: bold;
 }
-.btn-primary:focus {
+.btn-contact:focus {
   color: #4c2596 !important;
   background-color: transparent!important;
   box-shadow: none !important;
   border: 1px solid #000 !important;
 }
-.btn-primary {
+.btn-contact {
   border: 1px solid #000;
-  background-color: #000;
+  background-color: transparent;
   color: #fff;
-  letter-spacing: .25rem;
+  letter-spacing: 0.25rem;
   transition: all 0.4s ease;
 }
-.btn-primary:hover {
+.btn-contact:hover {
   background-color: #4c2596;
   border: 1px solid #4c2596;
-  color: #ffffff;
+  color: #fff;
 }
 .nav-btn {
   position: absolute;
@@ -208,11 +208,6 @@ html, body {
   .nav-list {
     align-items: flex-end;
   }
-  .btn-primary {
-    background-color: rgb(248, 248, 248);
-    color: #000;
-    margin-left: 2rem;
-  }
   .fa-bars {
     color: #fff;
   }
@@ -221,8 +216,10 @@ html, body {
   }
   .nav-link {
     color: #fff;
-    margin-left: 2rem;
     margin-bottom: 1rem;
+  }
+  .btn-contact {
+    background-color: #000;
   }
   .carousel-inner .carousel-item .heading-1{
     margin-top: 17rem;
@@ -258,11 +255,11 @@ html, body {
     align-items: center;
   }
   .nav-link {
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-bottom: 1rem;
   }
   .btn {
-    margin-left: 2.5rem;
+    margin-left: 2rem;
   }
   .carousel-inner .carousel-item .heading-1{
     margin-top: 14rem;
