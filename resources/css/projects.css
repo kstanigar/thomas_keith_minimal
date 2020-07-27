@@ -6,7 +6,7 @@ html, body {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     color: #222;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.685), #000000d2), url("../images/sphere.jpg") no-repeat center;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.685), #000000d2), url("../images/puzzle.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -36,15 +36,32 @@ html, body {
 .navbar-nav li a{
    margin-right: 2rem;
 }
+.nav-item {
+    position: relative;
+}
 .nav-link {
    font-size: 1rem !important;
    color: white;
    letter-spacing: .25rem;
    transition: all 0.4s ease;
 }
+.nav-link::after {
+    content:"";
+    height: 2px;
+    width: 0%;
+    text-align: center;
+    position: absolute;
+    bottom: 15%;
+    left: 2%;
+    background-color: #7d47e2;
+    transition: all 0.4s cubic-bezier(1,0,0,1);
+}
 .nav-link:hover {
     color: #a5a3a7;
 }
+.nav-link:hover::after {
+    width: 70%;
+} 
 .navbar-nav li.active a {
     color: #7d47e2;
     font-weight: bold;

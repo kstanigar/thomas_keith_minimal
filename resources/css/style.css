@@ -9,7 +9,7 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   color: #222;
   scroll-behavior: smooth;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.685)50%, #000000d2)50%, url("../images/sphere.jpg") no-repeat center;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.685)50%, #000000d2)50%, url("../images/hallway.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -50,6 +50,23 @@ html, body {
   color: #7d47e2;
   font-weight: bold;
 }
+.nav-item {
+  position: relative;
+}
+.nav-link::after {
+  content:"";
+  height: 2px;
+  width: 0%;
+  text-align: center;
+  position: absolute;
+  bottom: 15%;
+  left: 2%;
+  background-color: #7d47e2;
+  transition: all 0.4s cubic-bezier(1,0,0,1);
+}
+.nav-link:hover::after {
+  width: 70%;
+} 
 .btn-contact:focus {
   color: #4c2596 !important;
   background-color: transparent!important;
