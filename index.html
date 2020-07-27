@@ -47,7 +47,7 @@
             <div class="col-xs-12 col-lg-6 main-left">
                 <div class="col-12 container-fluid">
                     <div id="slides-1" class="carousel slide slide-left text-center" data-ride="carousel"
-                        data-interval="7000" data-pause="false">
+                        data-interval="10000" data-pause="false">
                         <div class=" carousel-inner .car-inner-left text-center">
                             <div class="carousel-item active">
                                 <h1 class="heading-1 who">Who am I?</h1>
@@ -70,8 +70,8 @@
             </div>
             <div class="col-xs-12 col-lg-6 main-right">
                 <div class="col-12 container-fluid">
-                    <p class="hint-2">Scroll up to see the question.</p>
-                    <div id="slides-2" class="carousel slide slide-right" data-ride="carousel" data-interval="7000"
+                    <p class="hint-2">Scroll up for the next question.</p>
+                    <div id="slides-2" class="carousel slide slide-right" data-ride="carousel" data-interval="10000"
                         data-pause="false">
                         <div class="carousel-inner car-inner-right text-center">
                             <div class="carousel-item active">
@@ -94,11 +94,13 @@
                     <a href="#top">
                         <i class="fa fa-arrow-up" aria-hidden="true"></i>
                     </a>
+                    <div class="questionTicker" id="questionTicker"> Next question in : 10 seconds </div>
                 </div>
                 <a href="./projects/" class="nav-btn text-center">VIEW STUFF</a>
             </div>
         </div>
     </div>
+    <script src="./resources/js/app.js"></script>
 </body>
 
 </html>
