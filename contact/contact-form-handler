@@ -1,0 +1,26 @@
+<?php
+if (isset($_POST['submit'])){
+    $name = $_POST['name'];
+    $visitor_email = $_POST['email'];
+    $message = $_POST['message'];
+    $contract = $_POST['contract'];
+    $freelance = $_POST['freelance'];
+
+    $mailTo = "ktstanigar@hotmail.com";
+    $headers = "From: ".$visitor_email;
+    $txt = "You have received an email from ".$name.".\n\n".$message; 
+
+    mail($mailTo, $txt, $headers);
+    header("Location: index.php?mailsend");
+}
+    
+
+
+
+    
+
+    
+
+
+
+?>

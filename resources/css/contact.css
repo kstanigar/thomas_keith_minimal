@@ -93,13 +93,19 @@ html, body {
     color: #4c2596;
     font-weight: 500;;
 }
+/* Skills */
+.skills {
+    font-style: italic;
+    font-weight: 800;
+}
 .contact-btn:hover {
     background-color: #000;
     color: #fff;
 }
 
-}
 /* End of Form */
+
+
 /* Media queries */
 @media (max-width: 992px) {
     .nav-list {
