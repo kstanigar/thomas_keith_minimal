@@ -107,6 +107,7 @@ html, body {
   color: #4c2596;
   font-weight: 500;
   font-size: 1rem;
+  width: 100%;
   transform: translate(-50%, -9%);
 }
 /* Hint for small screens */
