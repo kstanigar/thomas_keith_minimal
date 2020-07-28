@@ -140,7 +140,7 @@ html, body {
 }
 /* Numbers for small screens */
 .numbers {
-  font-size: 2.5rem;
+  font-size: 1.25rem;
   opacity: 0;
 }
 /* Hint for small screens */
@@ -253,7 +253,8 @@ html, body {
     font-size: 3.5rem;
     margin-top: 8rem;
   }
-  .carousel-inner .carousel-item .character {
+  .carousel-inner .carousel-item .character,
+  .carousel-inner .carousel-item .skillset {
     font-size: 3.5rem;
     margin-top: 6rem;
   }
@@ -305,7 +306,8 @@ html, body {
     font-size: 3.5rem;
     margin-top: 12rem;
   }
-  .carousel-inner .carousel-item .character {
+  .carousel-inner .carousel-item .character,
+  .carousel-inner .carousel-item .skillset {
     font-size: 3.5rem;
     margin-top: 12rem;
   }
@@ -329,10 +331,6 @@ html, body {
     margin-top: 12rem;
     font-size: 4rem;
   }
-  .carousel-inner .carousel-item .skillset{
-    margin-top: 12rem;
-    font-size: 4rem;
-  }
   .carousel-inner .carousel-item .name {
     font-size: 4rem;
     margin-top: 11rem;
@@ -346,7 +344,7 @@ html, body {
     margin-top: 10rem;
   }
   .carousel-inner .carousel-item .skillset{
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     margin-top: 10rem;
   }
 }
@@ -359,6 +357,10 @@ html, body {
   .carousel-inner .carousel-item .name {
     margin-top: 11rem;
     font-size: 3.5rem;
+  }
+  .carousel-inner .carousel-item .skillset {
+    font-size: 2.8rem;
+    margin-top: 9.5rem;
   }
   .carousel-inner .carousel-item .human {
     margin-top: 11rem;
@@ -375,17 +377,19 @@ html, body {
   }
   .carousel-inner .carousel-item .why {
     font-size: 3.2rem;
-    margin-top: 12rem;
+    margin-top: 10.5rem;
   }
   .carousel-inner .carousel-item .name {
-    margin-top: 10.5rem;
+    font-size: 3rem;
+    margin-top: 10rem;
   }
   .carousel-inner .carousel-item .human {
     margin-top: 10rem;
   }
-  .carousel-inner .carousel-item .character {
+  .carousel-inner .carousel-item .character,
+  .carousel-inner .carousel-item .skillset {
     font-size: 2.6rem;
-    margin-top: 11rem;
+    margin-top: 9.75rem;
   }
 }
 @media (max-width: 352px) {
@@ -414,7 +418,8 @@ html, body {
     font-size: 2.5rem;
     margin-top: 10rem;
   }
-  .carousel-inner .carousel-item .character {
+  .carousel-inner .carousel-item .character,
+  .carousel-inner .carousel-item .skillset {
     font-size: 2.5rem;
     margin-top: 9.5rem;
   }
