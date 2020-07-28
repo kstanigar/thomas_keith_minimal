@@ -215,35 +215,46 @@ html, body {
   min-height: 100%;  
 }
 .carousel-inner .carousel-item .heading-1 {
-  font-size: 4rem;
-  margin-top: 11.5rem;
+  font-size: 3.75rem;
+  margin-top: 9rem;
+}
+.carousel-inner .carousel-item .skills {
+  font-size: 3.75rem;
+  margin-top: 8rem;
 }
 .carousel-inner .carousel-item .heading-2 {
-  font-size: 5rem;
-  margin-top: 10rem;
+  font-size: 3.75rem;
+  margin-top: 7.75rem;
   }
+  .carousel-inner .carousel-item .name {
+    font-size: 4rem;
+    margin-top: 7.75rem;
+    }
 .carousel-inner .carousel-item .human {
   font-size: 4rem;
-  margin-top: 8.5rem;
+  margin-top: 6.5rem;
   }
+  
 .carousel-inner .carousel-item .character {
   font-size: 4rem;
-  margin-top: 7.5rem;
+  margin-top: 6rem;
+}
+.carousel-inner .carousel-item .skillset {
+  font-size: 3.4rem;
 }
 .main-right a {
   text-decoration: none;
 }
 @media (max-width: 1076px) {
   .carousel-inner .carousel-item .name {
-    font-size: 5rem;
-    margin-top: 6rem;
+    margin-top: 6.5rem;
   }
   .carousel-inner .carousel-item .human {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-top: 8rem;
   }
   .carousel-inner .carousel-item .character {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-top: 6rem;
   }
 }
@@ -318,7 +329,7 @@ html, body {
     margin-top: 12rem;
     font-size: 4rem;
   }
-  .carousel-inner .carousel-item .skills{
+  .carousel-inner .carousel-item .skillset{
     margin-top: 12rem;
     font-size: 4rem;
   }
@@ -332,6 +343,10 @@ html, body {
   }
   .carousel-inner .carousel-item .character {
     font-size: 3.75rem;
+    margin-top: 10rem;
+  }
+  .carousel-inner .carousel-item .skillset{
+    font-size: 3.5rem;
     margin-top: 10rem;
   }
 }
