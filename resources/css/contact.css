@@ -123,6 +123,9 @@ html, body {
 
 /* Media queries */
 @media (max-width: 992px) {
+    .form-container {
+        width: 60%;
+    }
     .nav-list {
         align-items: flex-end;
     }
