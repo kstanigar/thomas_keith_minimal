@@ -109,6 +109,10 @@ html, body {
     font-weight: 400;
     transition: all 1s ease;
 }
+.see-code {
+    font-size: 1.5rem;
+}
+
 .see-code:hover .symbol {
     opacity: 1;
 }
