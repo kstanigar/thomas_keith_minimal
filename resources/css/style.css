@@ -216,7 +216,7 @@ html, body {
 }
 .carousel-inner .carousel-item .heading-1 {
   font-size: 3.75rem;
-  margin-top: 9rem;
+  margin-top: 8rem;
 }
 .carousel-inner .carousel-item .skills {
   font-size: 3.75rem;
@@ -224,7 +224,7 @@ html, body {
 }
 .carousel-inner .carousel-item .heading-2 {
   font-size: 3.75rem;
-  margin-top: 7.75rem;
+  margin-top: 7rem;
   }
   .carousel-inner .carousel-item .name {
     font-size: 4rem;
@@ -232,15 +232,15 @@ html, body {
     }
 .carousel-inner .carousel-item .human {
   font-size: 4rem;
-  margin-top: 6.5rem;
+  margin-top: 6.25rem;
   }
-  
-.carousel-inner .carousel-item .character {
-  font-size: 4rem;
-  margin-top: 6rem;
-}
 .carousel-inner .carousel-item .skillset {
   font-size: 3.4rem;
+  margin-top: 7rem;
+}
+.carousel-inner .carousel-item .character {
+  font-size: 4rem;
+  margin-top: 5.5rem;
 }
 .main-right a {
   text-decoration: none;
