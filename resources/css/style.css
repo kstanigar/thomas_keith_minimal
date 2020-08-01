@@ -215,35 +215,61 @@ html, body {
   min-height: 100%;  
 }
 .carousel-inner .carousel-item .heading-1 {
-  font-size: 3.75rem;
-  margin-top: 8rem;
+  font-size: 5.75rem;
+  margin-top: 10rem;
 }
 .carousel-inner .carousel-item .skills {
-  font-size: 3.75rem;
-  margin-top: 8rem;
+  font-size: 5.75rem;
+  margin-top: 10rem;
 }
 .carousel-inner .carousel-item .heading-2 {
-  font-size: 3.75rem;
-  margin-top: 7rem;
-  }
+  font-size: 5.75rem;
+  margin-top: 9rem;
+}
   .carousel-inner .carousel-item .name {
-    font-size: 4rem;
-    margin-top: 7.75rem;
-    }
+    font-size: 6rem;
+    margin-top: 9.75rem;
+}
 .carousel-inner .carousel-item .human {
-  font-size: 4rem;
-  margin-top: 6.25rem;
-  }
+  font-size: 6rem;
+  margin-top: 8rem;
+}
 .carousel-inner .carousel-item .skillset {
-  font-size: 3.4rem;
-  margin-top: 7rem;
+  font-size: 5.4rem;
+  margin-top: 9rem;
 }
 .carousel-inner .carousel-item .character {
-  font-size: 4rem;
-  margin-top: 5.5rem;
+  font-size: 6rem;
+  margin-top: 7.5rem;
 }
 .main-right a {
   text-decoration: none;
+}
+@media (max-width: 1400px) {
+  .carousel-inner .carousel-item .heading-1 {
+    margin-top: 7.5rem;
+    font-size: 4.5rem;
+  }
+  .carousel-inner .carousel-item .skills {
+    font-size: 4.75rem;
+    margin-top: 7rem;
+  }
+    .carousel-inner .carousel-item .name {
+      font-size: 4rem;
+      margin-top: 7.5rem;
+  }
+  .carousel-inner .carousel-item .human {
+    font-size: 4rem;
+    margin-top: 5rem;
+  }
+  .carousel-inner .carousel-item .skillset {
+    font-size: 3.4rem;
+    margin-top: 6rem;
+  }
+  .carousel-inner .carousel-item .character {
+    font-size: 4rem;
+    margin-top: 4.5rem;
+  }
 }
 @media (max-width: 1076px) {
   .carousel-inner .carousel-item .name {
