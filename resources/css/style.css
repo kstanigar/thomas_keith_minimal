@@ -418,23 +418,23 @@ html, body {
     margin-top: 9.75rem;
   }
 }
-@media (max-width: 352px) {
+@media (max-width: 360px) {
   .carousel-inner .carousel-item .heading-1{
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .carousel-inner .carousel-item .who {
-    margin-top: 10rem;
+    margin-top: 9.5rem;
   }
   .carousel-inner .carousel-item .what {
-    margin-top: 10rem;
+    margin-top: 9.5rem;
   }
   .carousel-inner .carousel-item .why {
     font-size: 3.2rem;
-    margin-top: 10rem;
+    margin-top: 9rem;
   }
   .carousel-inner .carousel-item .skills {
     font-size: 3.5rem;
-    margin-top: 10rem;
+    margin-top: 9.5rem;
   }
   .carousel-inner .carousel-item .name {
     font-size: 3rem;
@@ -448,6 +448,16 @@ html, body {
   .carousel-inner .carousel-item .skillset {
     font-size: 2.5rem;
     margin-top: 9.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .carousel-inner .carousel-item .heading-1,
+  .carousel-inner .carousel-item .heading-2 {
+    font-size: 2.15rem;
+  }
+  .carousel-inner .carousel-item .skillset {
+    margin-top: 8.5rem;
   }
 }
 /* !Do I need this? */
