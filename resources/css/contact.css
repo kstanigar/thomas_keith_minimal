@@ -9,6 +9,7 @@ html, body {
     background: linear-gradient(to bottom, rgba(0,0,0,0.7), #211941), url("../images/hexa.jpg") no-repeat center;
     background-size: cover;
 }
+
 .padding {
     padding-bottom: 2rem;
 }
@@ -186,6 +187,10 @@ html, body {
     }
 }
 @media (max-width: 767px) {
+    .social-header {
+        flex-direction: column;
+        align-items: center;
+    }
     .form-container {
         width: 80%;
     }
