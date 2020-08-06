@@ -185,9 +185,9 @@ html, body {
   color: #ffffff;
   font-size: 4rem;
   position: absolute;
-  top: 87%;
+  top: 85%;
   left: 50%;
-  transform: translate(-50%, -87%);
+  transform: translate(-50%, -85%);
   cursor: pointer;
 }
 .main-left .arrow-down a:hover a{
@@ -199,9 +199,9 @@ html, body {
   font-size: 4rem;
   font-weight: 800;
   position: absolute;
-  top: 5%;
+  top: 8%;
   left: 50%;
-  transform: translate(-50%, -5%);
+  transform: translate(-50%, -8%);
   margin-bottom: 1rem;
   cursor: pointer;
 }
