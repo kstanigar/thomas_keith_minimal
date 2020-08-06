@@ -94,13 +94,36 @@ html, body {
 
 /* Form */
 .form-container {
-    width: 38%;
+    width: 42%;
     min-height: 80%;
     padding: 1rem;
     color: rgb(0, 0, 0);
     border-radius: 0.5rem;
     background-color: #f4f7f8d7;
     box-shadow: 0px 3px 10px #222;
+}
+.social-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.35rem;
+}
+.social-icons {
+    display: flex;
+    margin: 0.5rem 0rem;
+}
+.social-media-heading {
+    font-weight: lighter;
+    font-size: 0.5;
+}
+.social-icon {
+    font-size: 1.2rem;
+    color: rgb(67, 67, 253);
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: transform 0.2s;
+}
+.social-icon:hover {
+    transform: scale(1.2);
 }
 .fa-hashtag {
     font-size: 1.15rem;
@@ -112,12 +135,16 @@ html, body {
 .fa-beer {
     color: goldenrod;
 }
+
 .fa-comment,
 .fa-id-card,
-.fa-envelope {
+.fa-envelope,
+.fa-exclamation,
+.fa-pencil,
+.fa-link,
+.fa-trophy {
     color: #5a5a5a; 
 }
-
 
 .thank-you {
     font-weight: 400;
@@ -130,13 +157,19 @@ html, body {
 }
 .thank-you-paragraph span {
     color: #632596;
-    font-weight: 500;;
+    font-weight: 500;
 }
 /* Skills */
 .skills {
+    margin: 0rem;
     font-style: italic;
-    font-weight: 800;
-    font-size: 1.1rem;
+    font-weight: bold;
+    color: #632596;
+    font-size: 1.14rem;
+}
+
+.contact-button-container {
+    margin-top: 2rem;
 }
 /* End of Form */
 
