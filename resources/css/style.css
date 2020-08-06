@@ -115,6 +115,8 @@ html, body {
 .container {
   height: 100%;
   display: flex;
+  margin: 0;
+  padding: 0;
   justify-content: center;
   align-items: center;
 }
@@ -173,10 +175,7 @@ html, body {
 .slide-left {
   color: #fff;
 }
-.car-inner-left {
-  background-color: rgba(0, 0, 0, 0.774); 
-}
-.car-inner-right {
+.slide-right {
   color: #000;
 }
 
