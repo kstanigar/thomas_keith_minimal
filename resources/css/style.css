@@ -8,7 +8,6 @@
 /*-- Font --*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
-@import url('../fonts/Barcelony.ttf');
 
 /*-- Global --*/
 html, body {
@@ -16,8 +15,8 @@ html, body {
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
-  background: -webkit-gradient(linear, right top, left top, color-stop(50%, rgba(255, 255, 255, 0.685)), to(#000000d2))50%, url("../images/hallway.jpg") no-repeat center;
   background: -o-linear-gradient(right, rgba(255, 255, 255, 0.685)50%, #000000d2)50%, url("../images/hallway.jpg") no-repeat center;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, rgba(255, 255, 255, 0.685)), to(#000000d2))50%, url("../images/hallway.jpg") no-repeat center;
   background: linear-gradient(to left, rgba(255, 255, 255, 0.685)50%, #000000d2)50%, url("../images/hallway.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
