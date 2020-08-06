@@ -102,9 +102,28 @@ html, body {
     background-color: #f4f7f8d7;
     box-shadow: 0px 3px 10px #222;
 }
+.fa-hashtag {
+    font-size: 1.15rem;
+    position: absolute;
+    top: -4%;
+    left: -0.5%;
+    color: #632596;
+}
+.fa-beer {
+    color: goldenrod;
+}
+.fa-comment,
+.fa-id-card,
+.fa-envelope {
+    color: #5a5a5a; 
+}
+
+
 .thank-you {
     font-weight: 400;
     letter-spacing: 0.1rem;
+    position: relative;
+    padding-left: 1rem;
 }
 .thank-you-paragraph {
     font-size: 1rem;
