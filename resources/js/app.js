@@ -40,7 +40,7 @@ window.setInterval(function () {
 window.setInterval(function () {
     if (questionTicker4 > 0)
         questionTicker4--;
-    document.getElementById("questionTicker4").innerHTML = "Next Question In : " + questionTicker4;
+    document.getElementById("questionTicker4").innerHTML = "First Question In : " + questionTicker4;
     if (questionTicker4 <= 0)
         questionTicker4 = 8;
 }, 1000);
