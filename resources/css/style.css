@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*-- Font --*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
@@ -8,6 +15,8 @@ html, body {
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, rgba(255, 255, 255, 0.685)), to(#000000d2))50%, url("../images/hallway.jpg") no-repeat center;
+  background: -o-linear-gradient(right, rgba(255, 255, 255, 0.685)50%, #000000d2)50%, url("../images/hallway.jpg") no-repeat center;
   background: linear-gradient(to left, rgba(255, 255, 255, 0.685)50%, #000000d2)50%, url("../images/hallway.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
@@ -25,6 +34,8 @@ html, body {
 }
 .logo:hover {
   color: #6b6b6b;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .navbar {
@@ -40,6 +51,8 @@ html, body {
   color: #fff;
   letter-spacing: 0.25rem;
   text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .navbar-nav li a:hover {
@@ -61,6 +74,8 @@ html, body {
   bottom: 15%;
   left: 2%;
   background-color: #7d47e2;
+  -webkit-transition: all 0.15s cubic-bezier(1,0,0,1);
+  -o-transition: all 0.15s cubic-bezier(1,0,0,1);
   transition: all 0.15s cubic-bezier(1,0,0,1);
 }
 .nav-link:hover::after {
@@ -69,7 +84,8 @@ html, body {
 .btn-contact:focus {
   color: #4c2596 !important;
   background-color: transparent!important;
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
   border: 1px solid #4c2596 !important;
 }
 .btn-contact {
@@ -77,6 +93,8 @@ html, body {
   background-color: transparent;
   color: #fff;
   letter-spacing: 0.25rem;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .btn-contact:hover {
@@ -88,20 +106,25 @@ html, body {
   position: absolute;
   top: 90%;
   left: 50%;
-  transform: translate(-50%, -90%);
+  -webkit-transform: translate(-50%, -90%);
+      -ms-transform: translate(-50%, -90%);
+          transform: translate(-50%, -90%);
   padding: 1rem 3rem;
   border-radius: 5px;
   border: 1px solid #4c2596;
   background-color: #4c2596;
   color: #fff;
   font-weight: 500;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 .nav-btn:hover {
   background-color: transparent;
   color: #000;
   border: 2px solid #000;
-  box-shadow: 0px 2px 2px rgb(155, 155, 155);
+  -webkit-box-shadow: 0px 2px 2px rgb(155, 155, 155);
+          box-shadow: 0px 2px 2px rgb(155, 155, 155);
   font-weight: 800;
 }
 /* Nav Burger Menu */
@@ -114,11 +137,17 @@ html, body {
 }
 .container {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 0;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /* Ticker Countdown */
 .questionTicker {
@@ -131,12 +160,12 @@ html, body {
   color: rgb(145, 145, 145);
   font-weight: 400;
   width: 100%;
-  opacity: 1;
 }
 /* Numbers for small screens */
 .numbers {
   font-size: 1.25rem;
-  opacity: 1;
+  margin-bottom: 0;
+  padding: 0;
 }
 /* Hint for small screens */
 .hint {
@@ -163,8 +192,12 @@ html, body {
   max-width: 100%;
   margin: 0 auto;
   padding: 0;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .main-left {
   background: rgba(0, 0, 0, 0.774); 
@@ -186,7 +219,9 @@ html, body {
   position: absolute;
   top: 82%;
   left: 50%;
-  transform: translate(-50%, -82%);
+  -webkit-transform: translate(-50%, -82%);
+      -ms-transform: translate(-50%, -82%);
+          transform: translate(-50%, -82%);
   cursor: pointer;
 }
 .main-left .arrow-down a:hover a{
@@ -200,7 +235,9 @@ html, body {
   position: absolute;
   top: 8%;
   left: 50%;
-  transform: translate(-50%, -8%);
+  -webkit-transform: translate(-50%, -8%);
+      -ms-transform: translate(-50%, -8%);
+          transform: translate(-50%, -8%);
   margin-bottom: 1rem;
   cursor: pointer;
 }
@@ -211,7 +248,9 @@ html, body {
 .carousel-inner {
   width: 85%;
   margin: 0 auto;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .carousel-inner .carousel-item .heading-1 {
   font-size: 5rem;
@@ -222,7 +261,9 @@ html, body {
  /* Media Queries  */
  @media (max-width: 992px) {
   .nav-list {
-      align-items: flex-end;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
   }
   .nav-item {
       font-size: 2rem;
@@ -245,7 +286,9 @@ html, body {
  }
  @media (max-width: 768px) {
   .nav-list {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
    }
    .nav-item {
      margin-left: 3rem;
