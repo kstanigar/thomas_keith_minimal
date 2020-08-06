@@ -185,9 +185,9 @@ html, body {
   color: #ffffff;
   font-size: 4rem;
   position: absolute;
-  top: 85%;
+  top: 82%;
   left: 50%;
-  transform: translate(-50%, -85%);
+  transform: translate(-50%, -82%);
   cursor: pointer;
 }
 .main-left .arrow-down a:hover a{
