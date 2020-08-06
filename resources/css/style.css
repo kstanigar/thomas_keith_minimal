@@ -220,10 +220,6 @@ html, body {
   font-size: 5rem;
 }
  /* Media Queries  */
-
- @media (max-width: 1440px) {
-   
- }
  @media (max-width: 992px) {
   .nav-list {
       align-items: flex-end;
@@ -259,18 +255,14 @@ html, body {
   .carousel-inner .carousel-item .character,
   .carousel-inner .carousel-item .human,
   .carousel-inner .carousel-item .skillset {
-    font-size: 3rem;
+    font-size: 3.2rem;
   }
  }
- @media (max-width: 400px) {
+ @media (max-width: 425px) {
   .carousel-inner .carousel-item .heading-1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
   }
   .carousel-inner .carousel-item .heading-2 {
-    font-size: 2.8rem;
-  }
-  .carousel-inner .carousel-item .character,
-  .carousel-inner .carousel-item .skillset {
     font-size: 2.8rem;
   }
  }
