@@ -190,16 +190,13 @@ html, body {
 }
 .thank-you-paragraph {
     font-size: 1rem;
+    margin-bottom: 0;
 }
-.thank-you-paragraph span {
-    color: #632596;
-    font-weight: 500;
-}
+
 /* Skills */
 .skills {
-    margin: 0rem;
+    margin: 0.35rem 0rem 1.5rem 0rem;
     font-style: italic;
-    font-weight: bold;
     color: #632596;
     font-size: 1.14rem;
 }
