@@ -155,6 +155,7 @@ html, body {
 .main-right {
   height: 100vh;
   max-width: 100%;
+  font-weight: 500;
   margin: 0 auto;
   padding: 0;
   -webkit-box-align: center;
