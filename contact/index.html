@@ -74,30 +74,29 @@
             </div>
             </p>
             <form method="post" action="contact-form-handler.php" data-netlify="true">
-
-                <div class="col-12 p-0 my-0">
-                    <label for="message">Message <i class="fa fa-comment" aria-hidden="true"></i>
-                    </label>
-                    <textarea id="message" class="form-control" name="message" rows="3"
-                        placeholder="How can I help you?" required></textarea>
-                </div>
-                <div class="form-group row my-0">
-                    <label for="name" class="col-12 col-form-label email-label">Name <i class="fa fa-id-card"
+                <div class="form-group row my-0 input-container">
+                    <label for="name" class="col-12 col-form-label name-label">Name <i class="fa fa-id-card"
                             aria-hidden="true"></i>
                     </label>
                     <div class="col-12">
-                        <input type="text" class="form-control email-input" id="name" name="name"
-                            placeholder="Your Name" required>
+                        <input type="text" class="form-control name-input" id="name" name="name" placeholder="Your Name"
+                            required>
                     </div>
                 </div>
-                <div class="form-group row my-0">
-                    <label for="email" class="col-12 col-form-label email-label">Contact info <i class="fa fa-envelope"
-                            aria-hidden="true"></i>
+                <div class="form-group row my-0 input-container">
+                    <label for="inputEmail" class="col-12 col-form-label email-label">Contact info <i
+                            class="fa fa-envelope" aria-hidden="true"></i>
                     </label>
                     <div class="col-12">
                         <input type="email" class="form-control email-input" id="inputEmail" name="email"
                             placeholder="Your Email" required>
                     </div>
+                </div>
+                <div class="col-12 p-0 my-0 input-container">
+                    <label class="message-label" for="message">Message <i class="fa fa-comment" aria-hidden="true"></i>
+                    </label>
+                    <textarea id="message" class="form-control" name="message" rows="3"
+                        placeholder="How can I help you?" required></textarea>
                 </div>
                 <div class="form-group row my-4">
                     <div class="col-12">Reason (optional)

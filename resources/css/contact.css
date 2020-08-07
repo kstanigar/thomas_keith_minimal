@@ -200,7 +200,24 @@ html, body {
     color: #632596;
     font-size: 1.14rem;
 }
-
+/* Inputs */
+.name-label,
+.email-label,
+.message-label {
+ margin-bottom: -0.5rem;
+ display: none;
+}
+.name-input {
+    margin-bottom: 1rem;
+}
+.email-input {
+    margin-bottom: 1.5rem;
+}
+.form-control::placeholder {
+    font-style: italic;
+    color: #2042bd;
+    font-weight: bold;
+}
 .contact-button-container {
     margin-top: 2rem;
 }
