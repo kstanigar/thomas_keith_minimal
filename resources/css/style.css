@@ -189,16 +189,14 @@ html, body {
   color: #ffffff;
   font-size: 4rem;
   position: absolute;
-  top: 90%;
+  top: 88%;
   left: 50%;
-  -webkit-transform: translate(-50%, -90%);
-      -ms-transform: translate(-50%, -90%);
-          transform: translate(-50%, -90%);
+  -webkit-transform: translate(-50%, -88%);
+      -ms-transform: translate(-50%, -88%);
+          transform: translate(-50%, -88%);
   cursor: pointer;
 }
-.main-left .arrow-down a:hover a{
-  text-shadow: 2px 2px #fff;
-}
+
 .main-right .arrow-up a{
   opacity: 1;
   color: #000;
