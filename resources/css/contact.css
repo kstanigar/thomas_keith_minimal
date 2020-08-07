@@ -117,7 +117,7 @@ html, body {
     width: 42%;
     min-height: 80%;
     padding: 1rem;
-    color: rgb(0, 0, 0);
+    color: #000;
     border-radius: 0.5rem;
     background-color: #f4f7f8d7;
     -webkit-box-shadow: 0px 3px 10px #222;
@@ -144,7 +144,7 @@ html, body {
 }
 .social-icon {
     font-size: 1.2rem;
-    color: rgb(67, 67, 253);
+    color: #4343FD;
     cursor: pointer;
     margin-right: 1rem;
     -webkit-transition: -webkit-transform 0.2s;
@@ -168,8 +168,11 @@ html, body {
 .fa-beer {
     color: goldenrod;
 }
-
-.fa-comment,
+.fa-smile {
+    color: #632596;
+}
+/* !These are not on display */
+/* .fa-comment,
 .fa-id-card,
 .fa-envelope,
 .fa-exclamation,
@@ -177,7 +180,7 @@ html, body {
 .fa-link,
 .fa-trophy {
     color: #5a5a5a; 
-}
+} */
 
 .thank-you {
     font-weight: 400;

@@ -54,7 +54,7 @@ html, body {
 }
 .nav-link {
    font-size: 1rem !important;
-   color: white;
+   color: #fff;
    letter-spacing: .25rem;
    -webkit-transition: all 0.4s ease;
    -o-transition: all 0.4s ease;
@@ -226,7 +226,7 @@ html, body {
 .right > a,
 .right .symbol,
 .right .see-code > a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 .right > a:hover img {
