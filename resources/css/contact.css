@@ -192,6 +192,9 @@ html, body {
     font-size: 1rem;
     margin-bottom: 0;
 }
+.thank-you-paragraph span {
+    color: #632596;   
+}
 
 /* Skills */
 .skills {
