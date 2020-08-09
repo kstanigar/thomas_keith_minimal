@@ -46,6 +46,12 @@ html, body {
 .navbar {
    padding: 0.6rem;
 } 
+.navbar-toggler:focus {
+    outline: none;
+}
+.navbar-toggler:active {
+    opacity: 0.5;
+}
 .navbar-nav li a{
    margin-right: 2rem;
 }
