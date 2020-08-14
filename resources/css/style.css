@@ -193,7 +193,7 @@ html, body {
 }
 .carousel-inner .carousel-item .heading-1,
 .carousel-inner .carousel-item .heading-2 {
-  font-size: 5rem;
+  font-size: 4.9rem;
 }
 
 /* Arrows */
@@ -229,11 +229,11 @@ html, body {
 .questionTicker {
   color: #4c2596;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.2rem;
   width: 100%;
 }
 .ticker-2 {
-  color: #919191;
+  color: #dfdfdf;
   font-weight: 400;
   width: 100%;
 }
@@ -245,8 +245,9 @@ html, body {
 }
 /* Hint for small screens */
 .hint {
-  color: #919191;
-  font-size: 0.9rem;
+  color: #dfdfdf;
+  font-size: 1.2rem;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -256,10 +257,12 @@ html, body {
   line-height: 1.1rem;
   text-align: center;
   opacity: 1;
+  font-size: 1.2rem;
 }
 .hint-3 {
-  color: #919191;
-  font-size: 0.9rem;
+  color: #dfdfdf;
+  font-size: 1.2rem;
+  font-weight: 400; 
 }
 
  /* Media Queries  */

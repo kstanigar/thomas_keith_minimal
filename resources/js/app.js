@@ -8,7 +8,7 @@ var questionTicker4 = 8;
 window.setInterval(function () {
     if (questionTicker > 0)
         questionTicker--;
-    document.getElementById("questionTicker").innerHTML = "Next Question In : " + questionTicker;
+    document.getElementById("questionTicker").innerHTML = "Question coming in : " + questionTicker;
     if (questionTicker <= 0)
         questionTicker = 8;
 }, 1000);
@@ -40,7 +40,7 @@ window.setInterval(function () {
 window.setInterval(function () {
     if (questionTicker4 > 0)
         questionTicker4--;
-    document.getElementById("questionTicker4").innerHTML = "First Question In : " + questionTicker4;
+    document.getElementById("questionTicker4").innerHTML = "Re-introduction In : " + questionTicker4;
     if (questionTicker4 <= 0)
         questionTicker4 = 8;
 }, 1000);
