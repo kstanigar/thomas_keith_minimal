@@ -113,6 +113,7 @@ html, body {
   position: absolute;
   top: 90%;
   left: 50%;
+  opacity: 0;
   -webkit-transform: translate(-50%, -90%);
       -ms-transform: translate(-50%, -90%);
           transform: translate(-50%, -90%);
@@ -125,6 +126,7 @@ html, body {
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  animation: appear 46s forwards;
 }
 .nav-btn:hover {
   background-color: transparent;
@@ -263,6 +265,21 @@ html, body {
   color: #dfdfdf;
   font-size: 1.2rem;
   font-weight: 400; 
+}
+
+/* Animation */
+@keyframes appear {
+  0% {
+    opacity: 0
+  }
+
+  97% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
  /* Media Queries  */
