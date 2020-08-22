@@ -32,7 +32,7 @@ window.setInterval(function () {
 window.setInterval(function () {
     if (questionTicker3 > 0)
         questionTicker3--;
-    document.getElementById("questionTicker3").innerHTML = "Wait for the Next Question In " + questionTicker3;
+    document.getElementById("questionTicker3").innerHTML = "Wait for the Next Question In : " + questionTicker3;
     if (questionTicker3 <= 0)
         questionTicker3 = 10;
 }, 1000);
