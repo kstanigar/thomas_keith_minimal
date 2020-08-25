@@ -340,10 +340,10 @@ html, body {
     max-height: 92vh;
   }
   .main-left .arrow-down a {
-    top: 92%;
-    -webkit-transform: translate(-50%, -92%);
-        -ms-transform: translate(-50%, -92%);
-            transform: translate(-50%, -92%);
+    top: 90%;
+    -webkit-transform: translate(-50%, -90%);
+        -ms-transform: translate(-50%, -90%);
+            transform: translate(-50%, -90%);
   }
  }
  @media (max-width: 425px) {
