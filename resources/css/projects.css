@@ -13,8 +13,8 @@ html, body {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     color: #222;
-    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.685)), to(#000000d2)), url("../images/puzzle.jpg") no-repeat center;
     background: -o-linear-gradient(left, rgba(255, 255, 255, 0.685), #000000d2), url("../images/puzzle.jpg") no-repeat center;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.685)), to(#000000d2)), url("../images/puzzle.jpg") no-repeat center;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.685), #000000d2), url("../images/puzzle.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
@@ -26,8 +26,8 @@ html, body {
 
   /* Nav Area */
 .nav-gradient {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 0.89)), color-stop(50%, rgba(0, 0, 0, 0.8)));
     background: -o-linear-gradient(left, rgba(255, 255, 255, 0.89) 50%, rgba(0, 0, 0, 0.8)50%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 0.89)), color-stop(50%, rgba(0, 0, 0, 0.8)));
     background: linear-gradient(to right, rgba(255, 255, 255, 0.89) 50%, rgba(0, 0, 0, 0.8)50%);
 }
 
