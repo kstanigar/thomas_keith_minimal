@@ -635,7 +635,7 @@ html, body {
 }
 /* Numbers for small screens */
 .numbers {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin-bottom: 0;
   padding: 0;
 }
@@ -901,11 +901,28 @@ html, body {
     padding: 1rem 2rem;
   }
  }
- @media (max-width: 280px) {
-  .carousel-inner .carousel-item .skillset,
-  .carousel-inner .carousel-item .character,
-  .carousel-inner .carousel-item .human {
+
+ @media (max-width: 320px) {
+  .carousel-inner .carousel-item .heading-1,
+  .carousel-inner .carousel-item .heading-2 {
     font-size: 2.2rem;
+  }
+  .hint,
+  .hint-2,
+  .hint-3,
+  .questionTicker {
+    font-size: 0.8rem;
+  }
+  
+  .numbers {
+    font-size: 0.6rem;
+  }
+ }
+
+ @media (max-width: 280px) {
+  .carousel-inner .carousel-item .heading-1,
+  .carousel-inner .carousel-item .heading-2 {
+    font-size: 2rem;
   }
  }
 
