@@ -223,7 +223,7 @@ html, body {
       -ms-transform: translate(-50%, -85%);
           transform: translate(-50%, -85%);
   cursor: pointer;
-  animation: top-arrow 20s infinite;
+  animation: top-arrow 20s ease-in-out infinite;
 }
 
 .main-left .arrow-down a:hover {
@@ -243,7 +243,7 @@ html, body {
           transform: translate(-50%, -8%);
   margin-bottom: 1rem;
   cursor: pointer;
-  animation: bottom-arrow 20s infinite;
+  animation: bottom-arrow 20s ease-in-out infinite;
 }
 
 .main-right .arrow-up a:hover {
