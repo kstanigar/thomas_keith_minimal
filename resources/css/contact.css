@@ -5,6 +5,7 @@
 * Browsers: last 4 version
 */
 
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
 
@@ -13,8 +14,8 @@ html, body {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     color: #222;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.7)), to(#211941)), url("../images/hexa.jpg") no-repeat center;
     background: -o-linear-gradient(top, rgba(0,0,0,0.7), #211941), url("../images/hexa.jpg") no-repeat center;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.7)), to(#211941)), url("../images/hexa.jpg") no-repeat center;
     background: linear-gradient(to bottom, rgba(0,0,0,0.7), #211941), url("../images/hexa.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
@@ -235,6 +236,30 @@ body {
 }
 .email-input {
     margin-bottom: 1.5rem;
+}
+
+.form-control::-webkit-input-placeholder {
+    font-style: italic;
+    color: #2042bd;
+    font-weight: bold;
+}
+
+.form-control::-moz-placeholder {
+    font-style: italic;
+    color: #2042bd;
+    font-weight: bold;
+}
+
+.form-control:-ms-input-placeholder {
+    font-style: italic;
+    color: #2042bd;
+    font-weight: bold;
+}
+
+.form-control::-ms-input-placeholder {
+    font-style: italic;
+    color: #2042bd;
+    font-weight: bold;
 }
 
 .form-control::placeholder {
