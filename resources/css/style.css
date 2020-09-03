@@ -223,6 +223,11 @@ html, body {
       -ms-transform: translate(-50%, -85%);
           transform: translate(-50%, -85%);
   cursor: pointer;
+  animation: top-arrow 20s infinite;
+}
+
+.main-left .arrow-down a:hover {
+  color: #727272;
 }
 
 .main-right .arrow-up a{
@@ -238,6 +243,181 @@ html, body {
           transform: translate(-50%, -8%);
   margin-bottom: 1rem;
   cursor: pointer;
+  animation: bottom-arrow 20s infinite;
+}
+
+.main-right .arrow-up a:hover {
+  color: #dddddd;
+}
+
+/* *Top Arrow Animation */
+@keyframes top-arrow {
+  0% {
+    top: 85%;
+  }
+  17% {
+    top: 85%;
+  }
+  18% {
+    top: 86.5%;
+  }
+  19% {
+    top: 85%;
+  }
+  20% {
+    top: 86%;
+  }
+  21% {
+    top: 85%;
+  }
+  22% {
+    top: 86%;
+  }
+  23% {
+    top: 85%;
+  }
+  24% {
+    top: 86%;
+  }
+  25% {
+    top: 85%;
+  }
+  26% {
+    top: 86%;
+  }
+  27% {
+    top: 85%;
+  }
+  28% {
+    top: 86%;
+  }
+  29% {
+    top: 85%;
+  }
+  30% {
+    top: 86%;
+  }
+  31% {
+    top: 85%;
+  }
+  32% {
+    top: 86%;
+  }
+  33% {
+    top: 85%;
+  }
+  34% {
+    top: 86%;
+  }
+  35% {
+    top: 85%;
+  }
+  36% {
+    top: 86%;
+  }
+  37% {
+    top: 85%;
+  }
+  38% {
+    top: 86%;
+  }
+  39% {
+    top: 85%;
+  }
+  40% {
+    top: 86%;
+  }
+  41% {
+    top: 85%;
+  }
+  42% {
+    top: 86%;
+  }
+  43% {
+    top: 85%;
+  }
+}
+
+/* *Bottom Arrow Animation */
+@keyframes bottom-arrow {
+  0% {
+    top: 8%;
+  }
+  62% {
+    top: 8%;
+  }
+  63% {
+    top: 6.8%;
+  }
+  64% {
+    top: 8%;
+  }
+  65% {
+    top: 6.5%;
+  }
+  66% {
+    top: 8%;
+  }
+  67% {
+    top: 6.8%;
+  }
+  68% {
+    top: 8%;
+  }
+  69% {
+    top: 6.8%;
+  }
+  70% {
+    top: 8%;
+  }
+  71% {
+    top: 6.8%;
+  }
+  72% {
+    top: 8%;
+  }
+  73% {
+    top: 6.8%;
+  }
+  74% {
+    top: 8%;
+  }
+  75% {
+    top: 6.8%;
+  }
+  76% {
+    top: 8%;
+  }
+  77% {
+    top: 6.8%;
+  }
+  78% {
+    top: 8%;
+  }
+  79% {
+    top: 6.8%;
+  }
+  80% {
+    top: 8%;
+  }
+  81% {
+    top: 6.8%;
+  }
+  82% {
+    top: 8%;
+  }
+  83% {
+    top: 6.8%;
+  }
+  84% {
+    top: 8%;
+  }
+  85% {
+    top: 6.8%;
+  }
+  86% {
+    top: 8%;
+  }
 }
 
 /* Ticker Countdown */
