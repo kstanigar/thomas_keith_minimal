@@ -111,6 +111,8 @@ html, body {
   border: 1px solid #4c2596;
   color: #fff !important;
 }
+
+/**Main Nav Button */
 .nav-btn {
   position: absolute;
   top: 90%;
@@ -128,8 +130,8 @@ html, body {
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  -webkit-animation: appear 46s forwards;
-          animation: appear 46s forwards;
+  -webkit-animation: appear 47s forwards;
+          animation: appear 47s forwards;
 }
 .nav-btn:hover {
   background-color: transparent;
@@ -139,6 +141,34 @@ html, body {
           box-shadow: 0px 2px 2px rgb(155, 155, 155);
   font-weight: 800;
 }
+/* Nav-btn Animation */
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0
+  }
+
+  97% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appear {
+  0% {
+    opacity: 0
+  }
+
+  97% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 /* Nav Burger Menu */
 .fa-bars {
   color:#fff; 
@@ -629,34 +659,6 @@ html, body {
   color: #dfdfdf;
   font-size: 1.2rem;
   font-weight: 400; 
-}
-
-/* Animation */
-@-webkit-keyframes appear {
-  0% {
-    opacity: 0
-  }
-
-  97% {
-    opacity: 0
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes appear {
-  0% {
-    opacity: 0
-  }
-
-  97% {
-    opacity: 0
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
  /* Media Queries  */
