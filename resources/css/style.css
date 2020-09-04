@@ -127,11 +127,11 @@ html, body {
   background-color: #4c2596;
   color: #fff;
   font-weight: 500;
-  -webkit-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  -webkit-animation: appear 47s forwards;
-          animation: appear 47s forwards;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-animation: appear 56s forwards;
+          animation: appear 56s forwards;
 }
 .nav-btn:hover {
   background-color: transparent;
@@ -246,7 +246,7 @@ html, body {
 
 /* Arrows */
 .main-left .arrow-down a{
-  opacity: 1;
+  opacity: 0;
   color: #fff;
   font-size: 4rem;
   position: absolute;
@@ -256,8 +256,10 @@ html, body {
       -ms-transform: translate(-50%, -85%);
           transform: translate(-50%, -85%);
   cursor: pointer;
-  -webkit-animation: top-arrow 20s ease-in-out infinite;
-          animation: top-arrow 20s ease-in-out infinite;
+  -webkit-animation: top-arrow 24s ease-in-out infinite, 
+                      opacity 24s ease-in-out infinite 3s;
+          animation: top-arrow 24s ease-in-out infinite, 
+                      opacity 24s ease-in-out infinite 3s;
 }
 
 .main-left .arrow-down a:hover {
@@ -265,7 +267,7 @@ html, body {
 }
 
 .main-right .arrow-up a{
-  opacity: 1;
+  opacity: 0;
   color: #000;
   font-size: 4rem;
   font-weight: 800;
@@ -277,12 +279,36 @@ html, body {
           transform: translate(-50%, -8%);
   margin-bottom: 1rem;
   cursor: pointer;
-  -webkit-animation: bottom-arrow 20s ease-in-out infinite;
-          animation: bottom-arrow 20s ease-in-out infinite;
+  -webkit-animation: bottom-arrow 24s ease-in-out infinite, 
+                      opacity 24s ease-in-out infinite 14s;
+          animation: bottom-arrow 24s ease-in-out infinite, 
+                      opacity 24s ease-in-out infinite 14s;
 }
 
 .main-right .arrow-up a:hover {
   color: #dddddd;
+}
+
+/* *Arrow Appear */
+@keyframes opacity {
+    0% {
+      opacity: 0;
+    }
+    1% {
+      opacity: 0;
+    }
+    2% {
+      opacity: 1;
+    }
+    52% {
+      opacity: 1;
+    }
+    53% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
 }
 
 /* *Top Arrow Animation */
@@ -342,7 +368,7 @@ html, body {
     top: 85%;
   }
   34% {
-    top: 86%;
+    top: 86.5%;
   }
   35% {
     top: 85%;
@@ -428,7 +454,7 @@ html, body {
     top: 85%;
   }
   34% {
-    top: 86%;
+    top: 86.5%;
   }
   35% {
     top: 85%;
@@ -510,7 +536,7 @@ html, body {
     top: 8%;
   }
   77% {
-    top: 6.8%;
+    top: 6.85%;
   }
   78% {
     top: 8%;
@@ -590,7 +616,7 @@ html, body {
     top: 8%;
   }
   77% {
-    top: 6.8%;
+    top: 6.85%;
   }
   78% {
     top: 8%;
@@ -738,7 +764,7 @@ html, body {
     top: 88%;
   }
   24% {
-    top: 89%;
+    top: 89.5%;
   }
   25% {
     top: 88%;
@@ -780,7 +806,7 @@ html, body {
     top: 88%;
   }
   38% {
-    top: 89%;
+    top: 89.5%;
   }
   39% {
     top: 88%;
@@ -824,7 +850,7 @@ html, body {
     top: 88%;
   }
   24% {
-    top: 89%;
+    top: 89.5%;
   }
   25% {
     top: 88%;
@@ -866,7 +892,7 @@ html, body {
     top: 88%;
   }
   38% {
-    top: 89%;
+    top: 89.5%;
   }
   39% {
     top: 88%;
