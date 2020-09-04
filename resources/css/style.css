@@ -683,7 +683,7 @@ html, body {
 }
 /* Numbers for small screens */
 .numbers {
-  font-size: 1.15rem;
+  font-size: 0.8rem;
   margin-bottom: 0;
   padding: 0;
 }
